@@ -1,0 +1,31 @@
+{
+  "name": "movieappjsx",
+  "version": "1.0.0",
+  "description": "Movie App to search movies created using JSX.",
+  "main": "./src/js/app.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManjushaRamakrishnan/MovieAppJSX.git"
+  },
+  "author": "Manjusha Ramakrishnan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "@material-ui/core": "^1.4.0",
+    "@material-ui/icons": "^2.0.0",
+    "gh-pages": "^1.2.0",
+    "history": "^1.17.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  }
+}
